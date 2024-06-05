@@ -1,0 +1,14 @@
+---
+tools:
+- name: fastqc
+  owner: devteam
+  tool_panel_section_id: cshl_library_information
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+  revisions:
+  - '8c650f7f76e9'  # v0.62
+  - 'd2cf2c0c8a11'  # v0.63
+- name: bedtools
+  owner: iuc
+  tool_panel_section_label: 'BED tools'
+  revisions:
+  - 2cd7e321d259
