@@ -1,14 +1,17 @@
 ---
 tools:
-- name: fastqc
-  owner: devteam
-  tool_panel_section_id: cshl_library_information
-  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: snpdata_consensus_tree
+  owner: msvermet
+  tool_panel_section_label: 'Consensus Trees'
   revisions:
-  - '8c650f7f76e9'  # v0.62
-  - 'd2cf2c0c8a11'  # v0.63
-- name: bedtools
-  owner: iuc
-  tool_panel_section_label: 'BED tools'
+  - '3e2bf2a68905'
+- name: snpdata_convert
+  owner: msvermet
+  tool_panel_section_label: 'Consensus Trees'
   revisions:
-  - 2cd7e321d259
+  - 'b51921e6becf'
+- name: snpdata_quality_control
+  owner: msvermet
+  tool_panel_section_label: 'Consensus Trees'
+  revisions:
+  - 'd49bd698595a'
